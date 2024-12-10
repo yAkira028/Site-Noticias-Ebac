@@ -1,0 +1,46 @@
+/* Estilo geral para as seções */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Esportes */
+section:nth-of-type(1) {
+    background-color: #007BFF; /* Azul */
+}
+
+/* Economia */
+section:nth-of-type(2) {
+    background-color: #28A745; /* Verde */
+}
+
+/* Entretenimento */
+section:nth-of-type(3) {
+    background-color: #FFC107; /* Amarelo */
+    color: black; /* Texto mais visível no fundo amarelo */
+}
+
+/* Tecnologia */
+section:nth-of-type(4) {
+    background-color: #6F42C1; /* Roxo */
+}
+
+/* Estilo adicional para os artigos */
+article {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo translúcido para os artigos */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Links */
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FFD700; /* Amarelo dourado ao passar o mouse */
+}
